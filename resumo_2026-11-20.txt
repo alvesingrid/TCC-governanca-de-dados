@@ -1,0 +1,28 @@
+Piloto - inventário do banco cidades (cópia de 2026-11-20)
+
+POR CAMADA
+grupo                    tabelas  no dbt  colunas  descr. dbt       %  coment. pg
+bronze                       185      83     5926         155    2.6%           0
+ouro                         198     116     3385         705   20.8%           0
+prata                        156      79     3940         628   15.9%           0
+seeds                         53      11      437          31    7.1%           0
+TOTAL                        592     289    13688        1519   11.1%           0
+
+POR PRODUTO
+grupo                    tabelas  no dbt  colunas  descr. dbt       %  coment. pg
+(cópia de backup)             15       0      395           0    0.0%           0
+(não identificado)           238       0     4626           0    0.0%           0
+conjuntura                   148     141     2758         929   33.7%           0
+far                           42      41     1410         272   19.3%           0
+fds                           19      18      706          31    4.4%           0
+indicadores_mcmv               1       1        6           5   83.3%           0
+linha_financiada              25      23      481           0    0.0%           0
+mcmv_historico                23      16     1178         117    9.9%           0
+reforma_casa_brasil            9       5      304           9    3.0%           0
+rural                         61      33     1776         125    7.0%           0
+seeds                         11      11       48          31   64.6%           0
+TOTAL                        592     289    13688        1519   11.1%           0
+
+no dbt     = a tabela tem entrada em algum schema.yml do repositório
+descr. dbt = colunas com descrição no schema.yml (sem TODO/TBD/'a definir')
+coment. pg = colunas com comentário gravado no próprio Postgres

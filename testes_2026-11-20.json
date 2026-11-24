@@ -1,0 +1,42 @@
+[
+  {
+    "dimensao": "Completude",
+    "regra": "O valor do PIB não pode estar vazio",
+    "tabela": "prata.prata_conjuntura_ibge_pib_corrente",
+    "coluna": "valor",
+    "resultado": "Aprovado",
+    "linhas_testadas": 460,
+    "linhas_que_violam": 0,
+    "pct_violam": 0.0
+  },
+  {
+    "dimensao": "Unicidade",
+    "regra": "Cada mês (ano + mês) aparece uma vez só",
+    "tabela": "prata.prata_conjuntura_novo_caged_total",
+    "coluna": "ano, mes",
+    "resultado": "Aprovado",
+    "linhas_testadas": 30,
+    "linhas_que_violam": 0,
+    "pct_violam": 0.0
+  },
+  {
+    "dimensao": "Validade",
+    "regra": "O mês está entre 1 e 12",
+    "tabela": "prata.prata_conjuntura_abecip_financiamentos",
+    "coluna": "mes",
+    "resultado": "Aprovado",
+    "linhas_testadas": 297,
+    "linhas_que_violam": 0,
+    "pct_violam": 0.0
+  },
+  {
+    "dimensao": "Consistência",
+    "regra": "Saldo de empregos = admitidos - desligados",
+    "tabela": "prata.prata_conjuntura_novo_caged_total",
+    "coluna": "saldo, admitidos, desligados",
+    "resultado": "Aprovado",
+    "linhas_testadas": 30,
+    "linhas_que_violam": 0,
+    "pct_violam": 0.0
+  }
+]

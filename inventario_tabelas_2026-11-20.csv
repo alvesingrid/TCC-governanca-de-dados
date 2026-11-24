@@ -1,0 +1,593 @@
+schema,tabela,tipo,produto,no_dbt,tabela_descrita_dbt,linhas_estimadas,colunas,colunas_descritas_dbt,colunas_comentario_pg
+bronze,backup_gefus_fundo_social_20261113,tabela,(cópia de backup),False,False,137491,49,0,0
+bronze,bronze_abecip_financiamentos,tabela,conjuntura,True,True,297,9,0,0
+bronze,bronze_abecip_instituicoes,tabela,conjuntura,True,True,323,14,0,0
+bronze,bronze_abecip_poupanca_sbpe,tabela,conjuntura,True,True,,9,0,0
+bronze,bronze_bacen_credito_pib,tabela,conjuntura,True,True,146,7,0,0
+bronze,bronze_bacen_financiamentos_imobiliarios,tabela,conjuntura,True,True,,9,0,0
+bronze,bronze_cbic_lancamentos_vendas,tabela,conjuntura,False,False,,40,0,0
+bronze,bronze_dhist_balanco_min_planejamento_bb,tabela,mcmv_historico,False,False,,13,0,0
+bronze,bronze_dhist_base_pf_pj_caixa,tabela,mcmv_historico,False,False,36809,41,0,0
+bronze,bronze_dhist_cleansed_log,tabela,mcmv_historico,False,False,454,42,0,0
+bronze,bronze_dhist_datas_entregas_pj_caixa,tabela,mcmv_historico,False,False,49481,8,0,0
+bronze,bronze_dhist_empreendimento_snh_bb,tabela,mcmv_historico,True,True,21896,50,8,0
+bronze,bronze_dhist_empreendimento_snh_caixa,tabela,mcmv_historico,True,True,287401,60,11,0
+bronze,bronze_dhist_int040_far_caixa,tabela,mcmv_historico,False,False,4112,50,0,0
+bronze,bronze_dhist_relatorio_executivo_caixa,tabela,mcmv_historico,False,False,934059,76,0,0
+bronze,bronze_dhist_serie_bases_relatorio_executivo,tabela,mcmv_historico,True,True,1011889,95,15,0
+bronze,bronze_dhist_serie_bext,tabela,mcmv_historico,True,True,5657893,47,8,0
+bronze,bronze_dhist_serie_entrada_bb,tabela,mcmv_historico,True,True,18025,56,10,0
+bronze,bronze_dhist_serie_min_cidades,tabela,mcmv_historico,True,True,3903075,102,6,0
+bronze,bronze_dhist_snh_entregas_af_caixa,tabela,mcmv_historico,False,False,239341,12,0,0
+bronze,bronze_dhist_snh_entregas_evento_bb,tabela,mcmv_historico,True,True,118060,18,8,0
+bronze,bronze_dhist_snh_entregas_evento_caixa,tabela,mcmv_historico,True,True,239199,19,8,0
+bronze,bronze_fgv_icst,tabela,conjuntura,True,True,194,6,0,0
+bronze,bronze_fgv_incc_m,tabela,conjuntura,True,True,383,6,0,0
+bronze,bronze_fipezap_locacao,tabela,conjuntura,True,True,224,6,0,0
+bronze,bronze_geavo_cca_analitico,tabela,conjuntura,True,True,186786,50,0,0
+bronze,bronze_geavo_cci_analitico,tabela,conjuntura,True,True,170378,47,0,0
+bronze,bronze_geavo_fgts_pf,tabela,conjuntura,True,True,10819261,5,0,0
+bronze,bronze_geavo_fgts_pj,tabela,conjuntura,True,True,19873,27,0,0
+bronze,bronze_gefus_fundo_social,tabela,conjuntura,True,True,137491,49,0,0
+bronze,bronze_ibge_paic_obras,tabela,conjuntura,True,True,,13,0,0
+bronze,bronze_ibge_paic_pessoal_salarial,tabela,conjuntura,True,True,,13,0,0
+bronze,bronze_ibge_paic_resultados,tabela,conjuntura,True,True,,13,0,0
+bronze,bronze_ibge_pib_consolidado_trimestral,tabela,conjuntura,True,True,,13,0,0
+bronze,bronze_ibge_pib_construcao_civil,tabela,conjuntura,True,True,80,13,0,0
+bronze,bronze_ibge_pib_corrente,tabela,conjuntura,True,True,460,13,0,0
+bronze,bronze_ibge_pim_pf_brasil,tabela,conjuntura,True,True,120,13,0,0
+bronze,bronze_ibge_pmc_construcao,tabela,conjuntura,True,True,180,13,0,0
+bronze,bronze_ibge_pnad_construcao_ocupados,tabela,conjuntura,True,True,,13,0,0
+bronze,bronze_ibge_pnad_construcao_rendimento,tabela,conjuntura,True,True,,13,0,0
+bronze,bronze_ibge_pnadc_populacao_decis_renda,tabela,conjuntura,True,True,80,13,0,0
+bronze,bronze_ibge_pnadc_rendimento_domiciliar,tabela,conjuntura,True,True,80,13,0,0
+bronze,bronze_ibge_sinapi,tabela,conjuntura,True,True,120,13,0,0
+bronze,bronze_infomoney_imob,tabela,conjuntura,True,True,,503,0,0
+bronze,bronze_manual_dados_mensais,tabela,conjuntura,False,False,56,181,0,0
+bronze,bronze_manual_dados_trimestrais,tabela,conjuntura,False,False,,136,0,0
+bronze,bronze_manual_empresas_balanco_lancamentos_vendas,tabela,conjuntura,False,False,102,12,0,0
+bronze,bronze_manual_fgts_valor_medio_imoveis,tabela,conjuntura,False,False,56,10,0,0
+bronze,bronze_manual_sbpe_financiamentos_aquisicao_bancos,tabela,conjuntura,False,False,56,35,0,0
+bronze,bronze_novo_caged,tabela,conjuntura,True,True,,11,0,0
+bronze,bronze_novo_caged_servicos_especializados,tabela,conjuntura,True,True,,11,0,0
+bronze,bronze_novo_caged_total,tabela,conjuntura,True,True,,11,0,0
+bronze,bronze_seed_api_ibge_uf,tabela,(não identificado),False,False,,6,0,0
+bronze,bronze_seed_cobertura_perguntas_mcid,tabela,(não identificado),False,False,,9,0,0
+bronze,bronze_seed_dominio_rural_obra,tabela,(não identificado),False,False,,4,0,0
+bronze,bronze_seed_ibge_municipio_centroide,tabela,(não identificado),False,False,5571,5,0,0
+bronze,bronze_seed_manual_far_portaria_selecao_apf,tabela,(não identificado),False,False,828,3,0,0
+bronze,bronze_seed_manual_fds_portaria_selecao_698_2026,tabela,(não identificado),False,False,393,6,0,0
+bronze,bronze_seed_manual_rural_portaria_autorizacao,tabela,(não identificado),False,False,667,17,0,0
+bronze,bronze_seed_manual_rural_portaria_autorizacao_conferencia,tabela,(não identificado),False,False,,12,0,0
+bronze,bronze_seed_manual_rural_portaria_enquadramento_1207_2025,tabela,(não identificado),False,False,66,13,0,0
+bronze,bronze_seed_manual_rural_portaria_enquadramento_173_2024,tabela,(não identificado),False,False,55,15,0,0
+bronze,bronze_seed_manual_rural_portaria_selecao_354_2024,tabela,(não identificado),False,False,2110,13,0,0
+bronze,bronze_seed_manual_rural_portaria_selecao_697_2026,tabela,(não identificado),False,False,1217,13,0,0
+bronze,bronze_seed_portarias_fnhis_sub50,tabela,(não identificado),False,False,,11,0,0
+bronze,bronze_seed_portarias_pro_moradia,tabela,(não identificado),False,False,,11,0,0
+bronze,bronze_seed_portarias_selecao_rural,tabela,(não identificado),False,False,54,10,0,0
+bronze,bronze_seed_selecao_portarias_rural,tabela,(não identificado),False,False,,11,0,0
+bronze,bronze_seed_ts_dominio_situacao,tabela,(não identificado),False,False,,7,0,0
+bronze,bronze_seed_ts_dominio_tipo_demanda,tabela,(não identificado),False,False,,3,0,0
+bronze,bronze_seed_ts_marcos_portaria_464_2018,tabela,(não identificado),False,False,,11,0,0
+bronze,bronze_seed_ts_marcos_portaria_738_2024,tabela,(não identificado),False,False,,12,0,0
+bronze,bronze_seed_ts_marcos_portaria_75_2025,tabela,(não identificado),False,False,,11,0,0
+bronze,bronze_seed_ts_portarias,tabela,(não identificado),False,False,,14,0,0
+bronze,bronze_seed_ts_publico_tradicional,tabela,(não identificado),False,False,,5,0,0
+bronze,bronze_sftp_arq_familia_pbf,tabela,reforma_casa_brasil,True,True,9308731,70,2,0
+bronze,bronze_sftp_cadunico_beneficiario_far,tabela,far,True,True,918796,15,2,0
+bronze,bronze_sftp_canalfgts_area,tabela,(não identificado),False,False,,6,0,0
+bronze,bronze_sftp_canalfgts_contratos,tabela,(não identificado),False,False,156200,27,0,0
+bronze,bronze_sftp_canalfgts_desembolsos,tabela,(não identificado),False,False,1615531,9,0,0
+bronze,bronze_sftp_canalfgts_empreendimentos,tabela,(não identificado),False,False,74600,15,0,0
+bronze,bronze_sftp_canalfgts_empreendimentos_construtor,tabela,(não identificado),False,False,427341,18,0,0
+bronze,bronze_sftp_canalfgts_empreendimentos_gps,tabela,(não identificado),False,False,298992,7,0,0
+bronze,bronze_sftp_canalfgts_empreendimentos_posicoes,tabela,(não identificado),False,False,74497,10,0,0
+bronze,bronze_sftp_canalfgts_entidades,tabela,(não identificado),False,False,7778,7,0,0
+bronze,bronze_sftp_canalfgts_execucoes_obras,tabela,(não identificado),False,False,567606,12,0,0
+bronze,bronze_sftp_canalfgts_justificativa_obra,tabela,(não identificado),False,False,,6,0,0
+bronze,bronze_sftp_canalfgts_linha,tabela,(não identificado),False,False,,6,0,0
+bronze,bronze_sftp_canalfgts_modalidade,tabela,(não identificado),False,False,,6,0,0
+bronze,bronze_sftp_canalfgts_municipios,tabela,(não identificado),False,False,5570,8,0,0
+bronze,bronze_sftp_canalfgts_operacoes_paralisadas,tabela,(não identificado),False,False,124,20,0,0
+bronze,bronze_sftp_canalfgts_operacoes_pj_pf,tabela,(não identificado),False,False,,8,0,0
+bronze,bronze_sftp_canalfgts_situacao_contrato,tabela,(não identificado),False,False,,6,0,0
+bronze,bronze_sftp_canalfgts_situacao_obra,tabela,(não identificado),False,False,,6,0,0
+bronze,bronze_sftp_classe_media_faixa3,tabela,(não identificado),False,False,3486315,57,0,0
+bronze,bronze_sftp_empreendimento_int040,tabela,mcmv_historico,True,True,239044,61,5,0
+bronze,bronze_sftp_empreendimento_int054,tabela,mcmv_historico,True,True,11339,67,5,0
+bronze,bronze_sftp_empreendimento_int057,tabela,mcmv_historico,True,True,61993,62,5,0
+bronze,bronze_sftp_empreendimento_int059,tabela,mcmv_historico,True,True,39346,89,5,0
+bronze,bronze_sftp_empreendimento_int065,tabela,mcmv_historico,True,True,473974,55,5,0
+bronze,bronze_sftp_gehis_andamento_obra,tabela,(não identificado),False,False,153545,19,0,0
+bronze,bronze_sftp_int021_far_bb_pf,tabela,far,True,True,122898,40,1,0
+bronze,bronze_sftp_int039_far_caixa_pf,tabela,far,True,True,1198095,41,2,0
+bronze,bronze_sftp_int042_fds_caixa_familias,tabela,(não identificado),False,False,42879,46,0,0
+bronze,bronze_sftp_int055_liberacoes_caixa_bb,tabela,rural,True,True,212849,9,0,0
+bronze,bronze_sftp_int057_pnhr_bb_empreendimentos,tabela,rural,True,True,1087,57,0,0
+bronze,bronze_sftp_int058_pnhr_bb_familias,tabela,(não identificado),False,False,20160,49,0,0
+bronze,bronze_sftp_int059_fds_caixa_empreendimentos,tabela,fds,True,True,916,84,2,0
+bronze,bronze_sftp_int064_pnhr_caixa_familias,tabela,(não identificado),False,False,196106,55,0,0
+bronze,bronze_sftp_int065_pnhr_caixa_empreendimentos,tabela,rural,True,True,8508,50,0,0
+bronze,bronze_sftp_mcmv_cidades,tabela,(não identificado),False,False,1882,20,0,0
+bronze,bronze_sftp_mcmv_cidades_emendas,tabela,(não identificado),False,False,5176,61,0,0
+bronze,bronze_sftp_mont_cont_pf_far,tabela,far,True,True,3123,117,2,0
+bronze,bronze_sftp_pmcmv_reformas_mcid,tabela,reforma_casa_brasil,True,True,191022,62,4,0
+bronze,bronze_sftp_pmcmv_reformas_mcid_historico,tabela,(não identificado),False,False,2370101,53,0,0
+bronze,bronze_sftp_portaria_162_2018_rural,tabela,(não identificado),False,False,1287,10,0,0
+bronze,bronze_sftp_pro_moradia_desembolsos,tabela,(não identificado),False,False,61666724,13,0,0
+bronze,bronze_sftp_pro_moradia_paralisacoes,tabela,(não identificado),False,False,4462,24,0,0
+bronze,bronze_sftp_reforma_casa_brasil,tabela,(não identificado),False,False,2856361,58,0,0
+bronze,bronze_sftp_snh_pmcmv_dados_prioritarios_af_bb,tabela,rural,True,True,1288,66,0,0
+bronze,bronze_sftp_snh_pmcmv_dados_prioritarios_af_caixa,tabela,far,True,True,15059,65,2,0
+bronze,bronze_sftp_snh_pmcmv_dados_prioritarios_af_caixa_entregas,tabela,fds,True,True,11731,10,2,0
+bronze,bronze_sftp_snh_pmcmv_dados_prioritarios_af_caixa_serie,tabela,far,True,True,389785,65,1,0
+bronze,bronze_sharepoint_fgts_canal_tab_ao_1_contratos_fgts,tabela,linha_financiada,True,True,154698,28,0,0
+bronze,bronze_sharepoint_fgts_canal_tab_ao_1_tab_empreendimentos,tabela,linha_financiada,True,True,73231,16,0,0
+bronze,bronze_sharepoint_fgts_canal_tdom_ao_1_linha,tabela,linha_financiada,True,True,,7,0,0
+bronze,bronze_sharepoint_fgts_empreendimentos_posicoes,tabela,linha_financiada,False,False,73131,11,0,0
+bronze,bronze_sharepoint_novo_mcmv_cidades_emendas,tabela,linha_financiada,True,True,3877,61,0,0
+bronze,bronze_sharepoint_orcamento_resultado_fundo_social,tabela,linha_financiada,True,True,,17,0,0
+bronze,bronze_sharepoint_tpc_orcamento_final,tabela,linha_financiada,True,True,372,12,0,0
+bronze,bronze_shpt_base_trabalho_social_pnhr_bb,tabela,rural,True,True,1088,28,0,0
+bronze,bronze_shpt_base_trabalho_social_pnhr_rural_caixa,tabela,rural,True,False,10005,29,0,0
+bronze,bronze_shpt_dados_prioritarios_snh_empreendimentos,tabela,rural,True,True,21458,58,0,0
+bronze,bronze_shpt_fgts_canal_contratos,tabela,(não identificado),False,False,154698,29,0,0
+bronze,bronze_shpt_fgts_canal_desembolsos,tabela,(não identificado),False,False,1574602,11,0,0
+bronze,bronze_shpt_fgts_canal_empreendimentos,tabela,(não identificado),False,False,73231,17,0,0
+bronze,bronze_shpt_fgts_canal_empreendimentos_posicoes,tabela,(não identificado),False,False,73131,12,0,0
+bronze,bronze_shpt_fgts_canal_execucoes_obras,tabela,(não identificado),False,False,564425,14,0,0
+bronze,bronze_shpt_fgts_canal_paralisadas_setor_publico,tabela,(não identificado),False,False,107,22,0,0
+bronze,bronze_shpt_fgts_canal_tdom_entidades,tabela,(não identificado),False,False,7421,9,0,0
+bronze,bronze_shpt_fgts_canal_tdom_linha,tabela,(não identificado),False,False,,8,0,0
+bronze,bronze_shpt_fgts_canal_tdom_modalidade,tabela,(não identificado),False,False,,8,0,0
+bronze,bronze_shpt_fgts_canal_tdom_municipios,tabela,(não identificado),False,False,5570,10,0,0
+bronze,bronze_shpt_fgts_canal_tdom_situacao_contrato,tabela,(não identificado),False,False,,8,0,0
+bronze,bronze_shpt_fgts_canal_tdom_situacao_obra,tabela,(não identificado),False,False,,8,0,0
+bronze,bronze_shpt_fgts_canal_tdom_uor,tabela,(não identificado),False,False,245,8,0,0
+bronze,bronze_shpt_fgts_contratos,tabela,(não identificado),False,False,154698,32,0,0
+bronze,bronze_shpt_fgts_dom_linha,tabela,(não identificado),False,False,,11,0,0
+bronze,bronze_shpt_fgts_empreendimentos,tabela,(não identificado),False,False,73231,20,0,0
+bronze,bronze_shpt_fgts_orcamento_final,tabela,(não identificado),False,False,372,13,0,0
+bronze,bronze_shpt_fnhis_propostas_apresentadas,tabela,(não identificado),False,False,7121,16,0,0
+bronze,bronze_shpt_fnhis_propostas_selecionadas,tabela,(não identificado),False,False,1207,29,0,0
+bronze,bronze_shpt_fnhis_sub50_propostas,tabela,(não identificado),False,False,7121,11,0,0
+bronze,bronze_shpt_fnhis_sub50_termos_compromisso,tabela,(não identificado),False,False,1207,24,0,0
+bronze,bronze_shpt_fnhis_sub50_termos_compromisso_serie,tabela,(não identificado),False,False,16898,13,0,0
+bronze,bronze_shpt_his_mcidades_consolidado_serie,tabela,far,True,True,1051058,99,2,0
+bronze,bronze_shpt_mcmv_cidades_emendas,tabela,(não identificado),False,False,3877,65,0,0
+bronze,bronze_shpt_mcmv_far_ts_caixa_202607,tabela,(não identificado),False,False,4162,26,0,0
+bronze,bronze_shpt_mcmv_fds_ts_caixa_202607,tabela,(não identificado),False,False,1009,26,0,0
+bronze,bronze_shpt_mcmv_rural_ts_caixa_202607,tabela,(não identificado),False,False,10039,26,0,0
+bronze,bronze_shpt_mcmv_rural_ts_caixa_bb_202607,tabela,(não identificado),False,False,1088,27,0,0
+bronze,bronze_shpt_monit_cad_pj_far_mensal,tabela,far,True,True,878,84,2,0
+bronze,bronze_shpt_monit_cad_pj_fds_mensal,tabela,fds,True,True,364,91,2,0
+bronze,bronze_shpt_monit_cad_pj_rural_mensal,tabela,rural,True,True,127,52,0,0
+bronze,bronze_shpt_monit_cadastro_pf_rural_mensal,tabela,rural,True,True,3093,40,0,0
+bronze,bronze_shpt_monit_exec_ts_fds_mensal,tabela,fds,True,True,141,16,2,0
+bronze,bronze_shpt_monit_mov_financ_far_mensal,tabela,far,True,True,12469,27,2,0
+bronze,bronze_shpt_monit_mov_financ_fds_mensal,tabela,fds,True,True,16887,26,2,0
+bronze,bronze_shpt_monit_mov_financ_rural_mensal,tabela,rural,True,True,7729,20,0,0
+bronze,bronze_shpt_monit_mov_obra_far_mensal,tabela,far,True,True,878,42,2,0
+bronze,bronze_shpt_monit_mov_obra_far_serie,tabela,far,True,True,6726,42,2,0
+bronze,bronze_shpt_monit_mov_obra_fds_mensal,tabela,fds,True,True,364,49,2,0
+bronze,bronze_shpt_monit_mov_obra_rural_mensal,tabela,rural,True,True,1517,49,0,0
+bronze,bronze_shpt_obra_mensal_far,tabela,mcmv_historico,True,True,5848,47,6,0
+bronze,bronze_shpt_obra_mensal_fds,tabela,mcmv_historico,True,True,2783,54,6,0
+bronze,bronze_shpt_obra_mensal_rural,tabela,mcmv_historico,True,True,12107,54,6,0
+bronze,bronze_shpt_reforma_casa_brasil_contratacao,tabela,(não identificado),False,False,51512,55,0,0
+bronze,bronze_shpt_snhis_regularidade_entes,tabela,(não identificado),False,False,5596,23,0,0
+bronze,bronze_shpt_snhis_regularidade_entes_serie,tabela,(não identificado),False,False,22384,23,0,0
+bronze,bronze_shpt_ts_remessas_historico,tabela,(não identificado),False,False,213182,66,0,0
+bronze,bronze_siafi_dotacao_execucao,tabela,conjuntura,True,True,562,33,0,0
+bronze,bronze_ts_empreendimentos-sem-indicacao-de-demanda-2026-09-02,tabela,(não identificado),False,False,628,35,0,0
+bronze,bronze_ts_empreendimentos-sem-indicacao-de-demanda-2026-10-06,tabela,(não identificado),False,False,661,25,0,0
+bronze,bronze_ts_trabalho-social-2026-07__ts_af_bb_far_07_26,tabela,(não identificado),False,False,200,28,0,0
+bronze,bronze_ts_trabalho-social-2026-07__ts_af_caixa_far_07_26,tabela,(não identificado),False,False,4164,26,0,0
+ouro,backup_ouro_linha_financiada_base_agregada_20261113,tabela,(cópia de backup),False,False,537400,42,0,0
+ouro,backup_ouro_linha_financiada_empreendimentos_20261113,tabela,(cópia de backup),False,False,93104,36,0,0
+ouro,backup_ouro_linha_financiada_features_preditivas_20261113,tabela,(cópia de backup),False,False,149,15,0,0
+ouro,backup_ouro_linha_financiada_mapa_execucao_20261113,tabela,(cópia de backup),False,False,25409,20,0,0
+ouro,backup_ouro_linha_financiada_mapa_uf_20261113,tabela,(cópia de backup),False,False,,6,0,0
+ouro,backup_ouro_linha_financiada_projecao_anual_20261113,tabela,(cópia de backup),False,False,,20,0,0
+ouro,backup_ouro_linha_financiada_ranking_territorial_20261113,tabela,(cópia de backup),False,False,8075,18,0,0
+ouro,backup_ouro_linha_financiada_relatorio_semanal_20261113,tabela,(cópia de backup),False,False,902,15,0,0
+ouro,backup_ouro_linha_financiada_resumo_mensal_20261113,tabela,(cópia de backup),False,False,495,22,0,0
+ouro,backup_rcb_ouro_ficha_20261113,tabela,(cópia de backup),False,False,135946,37,0,0
+ouro,backup_rcb_ouro_implementacao_20261113,tabela,(cópia de backup),False,False,7972,24,0,0
+ouro,backup_rcb_ouro_mapa_20261113,tabela,(cópia de backup),False,False,,12,0,0
+ouro,ouro_conjuntura_balancos_empresas,tabela,conjuntura,True,True,,14,14,0
+ouro,ouro_conjuntura_balancos_empresas_totais,tabela,conjuntura,True,True,,13,13,0
+ouro,ouro_conjuntura_boletim_p1_cbic_lancamentos_e_vendas_totais,tabela,conjuntura,True,True,,8,8,0
+ouro,ouro_conjuntura_boletim_p1_lancamentos_por_regiao_cbic,tabela,conjuntura,True,True,,5,5,0
+ouro,ouro_conjuntura_boletim_p1_pib_construcao_crescimento,tabela,conjuntura,True,True,,7,7,0
+ouro,ouro_conjuntura_boletim_p1_vendas_por_regiao_cbic,tabela,conjuntura,True,True,,5,5,0
+ouro,ouro_conjuntura_boletim_p2_financiamentos_habitacionais_uh,tabela,conjuntura,True,True,,4,4,0
+ouro,ouro_conjuntura_boletim_p2_financiamentos_imobiliarios_bacen,tabela,conjuntura,True,True,51,8,8,0
+ouro,ouro_conjuntura_boletim_p2_lancamentos_por_construtora_variacao,tabela,conjuntura,True,True,,6,6,0
+ouro,ouro_conjuntura_boletim_p2_totais_empresas_variacao,tabela,conjuntura,True,True,,6,6,0
+ouro,ouro_conjuntura_boletim_p2_vendas_por_construtora_variacao,tabela,conjuntura,True,True,,6,6,0
+ouro,ouro_conjuntura_boletim_p3_empregos_construcao_caged,tabela,conjuntura,True,True,,4,4,0
+ouro,ouro_conjuntura_boletim_p3_financiamentos_por_banco,tabela,conjuntura,True,True,,6,3,0
+ouro,ouro_conjuntura_boletim_p3_pnad_ocupados_rendimento,tabela,conjuntura,True,True,,6,6,0
+ouro,ouro_conjuntura_boletim_p3_producao_e_vendas_variacao,tabela,conjuntura,True,True,,8,8,0
+ouro,ouro_conjuntura_boletim_p4_credito_imobiliario_pib,tabela,conjuntura,True,True,107,3,3,0
+ouro,ouro_conjuntura_boletim_p4_no_uh_por_condicao_de_uso,tabela,conjuntura,True,True,,7,7,0
+ouro,ouro_conjuntura_boletim_p5_financiamento_pf_mcmv_por_faixa,tabela,conjuntura,True,True,,6,6,0
+ouro,ouro_conjuntura_boletim_p5_poupanca_captacao_liquida,tabela,conjuntura,True,True,,3,3,0
+ouro,ouro_conjuntura_boletim_p5_sbpe_construcao_no_tri,tabela,conjuntura,True,True,,5,5,0
+ouro,ouro_conjuntura_boletim_p6_ogu,tabela,conjuntura,False,False,64,10,0,0
+ouro,ouro_conjuntura_boletim_p6_sinapi_brasil_e_incc_m,tabela,conjuntura,True,True,,4,4,0
+ouro,ouro_conjuntura_boletim_p6_ticket_medio_vs_incc,tabela,conjuntura,True,True,62,10,10,0
+ouro,ouro_conjuntura_boletim_p7_indices_da_construcao_variacao,tabela,conjuntura,True,True,,6,6,0
+ouro,ouro_conjuntura_boletim_valores,tabela,conjuntura,True,True,2610,7,7,0
+ouro,ouro_conjuntura_canal_fgts,tabela,conjuntura,True,True,,14,14,0
+ouro,ouro_conjuntura_credito_pib,tabela,conjuntura,True,True,146,2,2,0
+ouro,ouro_conjuntura_empregos_caged,tabela,conjuntura,True,True,,15,15,0
+ouro,ouro_conjuntura_fgts_valor_medio,tabela,conjuntura,True,True,56,11,11,0
+ouro,ouro_conjuntura_financiamento_pf_faixa,tabela,conjuntura,True,True,,17,17,0
+ouro,ouro_conjuntura_financiamentos_habitacionais,tabela,conjuntura,True,True,99,9,9,0
+ouro,ouro_conjuntura_financiamentos_imobiliarios_pf_pj,tabela,conjuntura,True,True,331,7,7,0
+ouro,ouro_conjuntura_financiamentos_instituicao,tabela,conjuntura,True,True,350,13,13,0
+ouro,ouro_conjuntura_fipezap,tabela,conjuntura,True,True,224,8,8,0
+ouro,ouro_conjuntura_funding,tabela,conjuntura,True,True,,11,11,0
+ouro,ouro_conjuntura_fundo_social,tabela,conjuntura,True,True,,13,13,0
+ouro,ouro_conjuntura_icst,tabela,conjuntura,True,True,194,11,11,0
+ouro,ouro_conjuntura_incc_m,tabela,conjuntura,True,True,383,7,7,0
+ouro,ouro_conjuntura_indice_imob,tabela,conjuntura,True,True,,7,7,0
+ouro,ouro_conjuntura_novos_financiamentos_banco,tabela,conjuntura,True,True,,18,18,0
+ouro,ouro_conjuntura_ogu,tabela,conjuntura,True,True,,9,9,0
+ouro,ouro_conjuntura_pib_construcao_civil,tabela,conjuntura,True,True,,7,7,0
+ouro,ouro_conjuntura_pib_construcao_civil_pct,tabela,conjuntura,True,True,,7,7,0
+ouro,ouro_conjuntura_pnad_ocupados,tabela,conjuntura,True,True,,5,5,0
+ouro,ouro_conjuntura_pnad_rendimento,tabela,conjuntura,True,True,,5,5,0
+ouro,ouro_conjuntura_producao_fisica,tabela,conjuntura,True,True,,8,8,0
+ouro,ouro_conjuntura_qualidade_completude,tabela,conjuntura,True,True,1085,7,7,0
+ouro,ouro_conjuntura_qualidade_inventario,tabela,conjuntura,True,True,121,6,6,0
+ouro,ouro_conjuntura_qualidade_schema,tabela,conjuntura,True,True,22126,6,6,0
+ouro,ouro_conjuntura_qualidade_schema_drift,tabela,conjuntura,True,True,,7,7,0
+ouro,ouro_conjuntura_saldo_poupanca,tabela,conjuntura,True,True,535,6,6,0
+ouro,ouro_conjuntura_sinapi,tabela,conjuntura,True,True,,6,6,0
+ouro,ouro_conjuntura_ticket_medio,tabela,conjuntura,True,True,,20,20,0
+ouro,ouro_conjuntura_uh_condicao_uso,tabela,conjuntura,True,True,297,14,14,0
+ouro,ouro_far_beneficiario_cadunico,tabela,far,True,True,5634,19,19,0
+ouro,ouro_far_beneficiario_contrato,tabela,far,True,True,1324092,43,6,0
+ouro,ouro_far_beneficiario_municipio,tabela,far,True,True,923,17,15,0
+ouro,ouro_far_cobertura_perguntas,tabela,far,True,True,,12,3,0
+ouro,ouro_far_consolidado_historico,tabela,far,True,True,38837,10,10,0
+ouro,ouro_far_contrapartida,tabela,far,True,True,1513,8,4,0
+ouro,ouro_far_curva_s,tabela,far,True,True,10883,17,4,0
+ouro,ouro_far_empreendimento_perguntas,tabela,far,True,True,878,70,11,0
+ouro,ouro_far_evolucao_financeira_chart,tabela,far,True,True,7018,18,0,0
+ouro,ouro_far_execucao_fisica_financeira_chart,tabela,far,True,True,7600,5,0,0
+ouro,ouro_far_ficha_empreendimento,tabela,far,True,True,878,31,4,0
+ouro,ouro_far_mapa_nacional,tabela,far,True,True,116,13,1,0
+ouro,ouro_far_panorama_estadual,tabela,far,True,True,10430,14,2,0
+ouro,ouro_far_proposta_trajetoria,tabela,far,True,True,13751,20,16,0
+ouro,ouro_far_resumo_gerencial,tabela,far,True,True,,11,0,0
+ouro,ouro_far_serie_mensal_apf,tabela,far,True,True,19956,37,5,0
+ouro,ouro_fds_evolucao_financeira_chart,tabela,fds,True,True,612,18,0,0
+ouro,ouro_fds_ficha_empreendimento,tabela,fds,True,True,364,47,5,0
+ouro,ouro_fds_panorama_entidade,tabela,fds,True,True,175,18,0,0
+ouro,ouro_fnhis_curva_s,tabela,(não identificado),False,False,364,11,0,0
+ouro,ouro_fnhis_curva_s_desvio,tabela,(não identificado),False,False,1200,24,0,0
+ouro,ouro_fnhis_curva_s_referencia,tabela,(não identificado),False,False,,15,0,0
+ouro,ouro_fnhis_empenho_parcelas,tabela,(não identificado),False,False,1200,25,0,0
+ouro,ouro_fnhis_ente_historico,tabela,(não identificado),False,False,3723,37,0,0
+ouro,ouro_fnhis_ficha_termo_compromisso,tabela,(não identificado),False,False,1207,47,0,0
+ouro,ouro_fnhis_funil_propostas,tabela,(não identificado),False,False,,20,0,0
+ouro,ouro_fnhis_motivos_nao_enquadramento,tabela,(não identificado),False,False,6069,13,0,0
+ouro,ouro_fnhis_portarias,tabela,(não identificado),False,False,,16,0,0
+ouro,ouro_fnhis_proposta_tramite,tabela,(não identificado),False,False,7121,31,0,0
+ouro,ouro_fnhis_regularidade_municipios,tabela,(não identificado),False,False,5596,22,0,0
+ouro,ouro_fnhis_termo_situacao_mensal,tabela,(não identificado),False,False,602,8,0,0
+ouro,ouro_hist_marco_empreendimento,tabela,(não identificado),False,False,17545,31,0,0
+ouro,ouro_hist_pro_moradia_evolucao_financeira,tabela,(não identificado),False,False,5341,10,0,0
+ouro,ouro_hist_pro_moradia_paralisacao,tabela,(não identificado),False,False,596,11,0,0
+ouro,ouro_hist_serie_mensal,tabela,(não identificado),False,False,6251,26,0,0
+ouro,ouro_hist_serie_mensal_frentes_novas,tabela,(não identificado),False,False,1452,9,0,0
+ouro,ouro_hist_serie_situacao_mensal,tabela,(não identificado),False,False,19269,14,0,0
+ouro,ouro_hist_snapshot_empreendimento_atual,tabela,(não identificado),False,False,17545,70,0,0
+ouro,ouro_linha_financiada_base_agregada,tabela,linha_financiada,True,True,537400,42,0,0
+ouro,ouro_linha_financiada_base_pf_fundo_social,tabela,linha_financiada,True,True,3775,8,0,0
+ouro,ouro_linha_financiada_cobertura_perguntas,tabela,linha_financiada,True,True,,3,0,0
+ouro,ouro_linha_financiada_contrapartidas,tabela,linha_financiada,True,True,,10,0,0
+ouro,ouro_linha_financiada_empreendimentos,tabela,linha_financiada,True,True,93104,36,0,0
+ouro,ouro_linha_financiada_execucao_orcamentaria,tabela,linha_financiada,True,True,375,20,0,0
+ouro,ouro_linha_financiada_features_preditivas,tabela,linha_financiada,True,True,149,15,0,0
+ouro,ouro_linha_financiada_mapa_execucao,tabela,linha_financiada,True,True,25409,20,0,0
+ouro,ouro_linha_financiada_mapa_uf,tabela,linha_financiada,False,False,27,6,0,0
+ouro,ouro_linha_financiada_projecao_anual,tabela,linha_financiada,True,True,,20,0,0
+ouro,ouro_linha_financiada_ranking_territorial,tabela,linha_financiada,True,True,8075,18,0,0
+ouro,ouro_linha_financiada_relatorio_semanal,tabela,linha_financiada,True,True,902,15,0,0
+ouro,ouro_linha_financiada_resumo_mensal,tabela,linha_financiada,True,True,495,22,0,0
+ouro,ouro_mcid_cobertura_perguntas,tabela,(não identificado),False,False,,10,0,0
+ouro,ouro_pro_moradia_contrato_selecao,tabela,(não identificado),False,False,686,21,0,0
+ouro,ouro_pro_moradia_curva_s,tabela,(não identificado),False,False,28857,17,0,0
+ouro,ouro_pro_moradia_curva_s_desvio,tabela,(não identificado),False,False,665,37,0,0
+ouro,ouro_pro_moradia_curva_s_referencia,tabela,(não identificado),False,False,231,15,0,0
+ouro,ouro_pro_moradia_evolucao_financeira,tabela,(não identificado),False,False,5235,11,0,0
+ouro,ouro_pro_moradia_ficha_contrato,tabela,(não identificado),False,False,686,59,0,0
+ouro,ouro_pro_moradia_obra_andamento,tabela,(não identificado),False,False,686,34,0,0
+ouro,ouro_pro_moradia_obra_situacao_mensal,tabela,(não identificado),False,False,6271,8,0,0
+ouro,ouro_pro_moradia_orcamento_execucao,tabela,(não identificado),False,False,66,12,0,0
+ouro,ouro_pro_moradia_panorama_estadual,tabela,(não identificado),False,False,,20,0,0
+ouro,ouro_pro_moradia_portarias,tabela,(não identificado),False,False,,13,0,0
+ouro,ouro_pro_moradia_tomador,tabela,(não identificado),False,False,180,30,0,0
+ouro,ouro_pro_moradia_tomador_recontratacao,tabela,(não identificado),False,False,686,21,0,0
+ouro,ouro_reforma_casa_brasil_cobertura_perguntas_dash,tabela,reforma_casa_brasil,True,True,,6,0,0
+ouro,ouro_reforma_casa_brasil_ficha_reforma_dash,tabela,reforma_casa_brasil,False,False,191022,37,0,0
+ouro,ouro_reforma_casa_brasil_implementacao_dash,tabela,reforma_casa_brasil,True,True,2816,24,0,0
+ouro,ouro_reforma_casa_brasil_mapa_uf,tabela,reforma_casa_brasil,False,False,,12,0,0
+ouro,ouro_reforma_casa_brasil_monitoramento_recursos_dash,tabela,reforma_casa_brasil,False,False,188194,22,0,0
+ouro,ouro_relog_classe_media_reforma_indicadores_faixa_renda,tabela,(não identificado),False,False,,5,0,0
+ouro,ouro_relog_indicadores,tabela,(não identificado),False,False,,7,0,0
+ouro,ouro_relog_indicadores_entregas,tabela,(não identificado),False,False,336,8,0,0
+ouro,ouro_relog_indicadores_frente,tabela,(não identificado),False,False,95,8,0,0
+ouro,ouro_relog_indicadores_frentes_novas,tabela,(não identificado),False,False,145,7,0,0
+ouro,ouro_relog_indicadores_frentes_novas_regiao,tabela,(não identificado),False,False,1452,8,0,0
+ouro,ouro_relog_indicadores_gargalo_desempenho,tabela,(não identificado),False,False,11644,50,0,0
+ouro,ouro_relog_resumo_dashboard,tabela,(não identificado),False,False,,8,0,0
+ouro,ouro_relog_resumo_dashboard_frentes_novas,tabela,(não identificado),False,False,,7,0,0
+ouro,ouro_relog_resumo_gargalo_desempenho_dashboard,tabela,(não identificado),False,False,6179,29,0,0
+ouro,ouro_rural_curva_s,tabela,rural,False,False,3418,21,0,0
+ouro,ouro_rural_curva_s_desvio,tabela,rural,False,False,3648,39,0,0
+ouro,ouro_rural_curva_s_referencia,tabela,rural,False,False,,13,0,0
+ouro,ouro_rural_entidade_organizadora,tabela,rural,False,False,2549,28,0,0
+ouro,ouro_rural_entidade_recontratacao,tabela,rural,False,False,10346,20,0,0
+ouro,ouro_rural_evolucao_financeira,tabela,rural,True,True,57492,14,4,0
+ouro,ouro_rural_execucao_fisica_financeira,tabela,rural,True,True,59722,10,5,0
+ouro,ouro_rural_ficha_empreendimento,tabela,rural,True,True,10402,44,20,0
+ouro,ouro_rural_ficha_trabalho_social,tabela,rural,True,True,10390,13,3,0
+ouro,ouro_rural_infraestrutura_agua_saneamento,tabela,rural,True,True,10402,13,2,0
+ouro,ouro_rural_mapa_nacional,tabela,rural,True,True,,14,2,0
+ouro,ouro_rural_obra_andamento,tabela,rural,False,False,1517,36,0,0
+ouro,ouro_rural_obra_situacao_mensal,tabela,rural,False,False,2174,8,0,0
+ouro,ouro_rural_painel_operacao,tabela,rural,False,False,10402,55,0,0
+ouro,ouro_rural_painel_pendencia,tabela,rural,False,False,10766,18,0,0
+ouro,ouro_rural_painel_portaria,tabela,rural,False,False,31206,60,0,0
+ouro,ouro_rural_panorama_estadual,tabela,rural,True,True,333,12,3,0
+ouro,ouro_rural_perfil_beneficiarios,tabela,rural,True,True,103,16,3,0
+ouro,ouro_rural_portarias_selecao_resumo,tabela,rural,False,False,54,26,0,0
+ouro,ouro_rural_resumo_gerencial,tabela,rural,True,True,,15,2,0
+ouro,ouro_rural_selecao_portaria_162,tabela,rural,False,False,1286,20,0,0
+ouro,ouro_rural_selecao_portarias,tabela,rural,False,False,4676,48,0,0
+ouro,ouro_ts_alerta_marco,tabela,(não identificado),False,False,5595,43,0,0
+ouro,ouro_ts_demanda_dossie,tabela,(não identificado),False,False,661,38,0,0
+ouro,ouro_ts_empreendimento_mapa,tabela,(não identificado),False,False,16497,39,0,0
+ouro,ouro_ts_executor_ente,tabela,(não identificado),False,False,,13,0,0
+ouro,ouro_ts_far_regua_marcos,tabela,(não identificado),False,False,91,9,0,0
+ouro,ouro_ts_marco_portaria,tabela,(não identificado),False,False,,10,0,0
+ouro,ouro_ts_painel_empreendimento,tabela,(não identificado),False,False,16422,65,0,0
+ouro,ouro_ts_portaria_situacao,tabela,(não identificado),False,False,69,10,0,0
+ouro,ouro_ts_resumo_uf,tabela,(não identificado),False,False,126,28,0,0
+ouro,snap_boletim_p1_cbic_lancamentos_e_vendas_totais,tabela,conjuntura,True,True,54,13,6,0
+ouro,snap_boletim_p1_lancamentos_por_regiao_cbic,tabela,conjuntura,True,True,52,10,6,0
+ouro,snap_boletim_p1_pib_construcao_civil_em_de_crescimento,tabela,conjuntura,True,True,,12,6,0
+ouro,snap_boletim_p1_vendas_por_regiao_cbic,tabela,conjuntura,True,True,55,10,6,0
+ouro,snap_boletim_p2_financiamentos_habitacionais_uh,tabela,conjuntura,True,True,,9,6,0
+ouro,snap_boletim_p2_financiamentos_imobiliarios_bacen,tabela,conjuntura,True,True,329,13,6,0
+ouro,snap_boletim_p2_lancamentos_por_construtora_variacao,tabela,conjuntura,True,True,,11,6,0
+ouro,snap_boletim_p2_totais_das_empresas_levantadas_variacao,tabela,conjuntura,True,True,,11,6,0
+ouro,snap_boletim_p2_vendas_por_construtora_variacao,tabela,conjuntura,True,True,,11,6,0
+ouro,snap_boletim_p3_empregos_construcao_caged,tabela,conjuntura,True,True,,9,6,0
+ouro,snap_boletim_p3_novos_financiamentos_imobiliarios_por_banco_,tabela,conjuntura,True,True,56,11,6,0
+ouro,snap_boletim_p3_pnad_continua_ocupados_e_rendimento_medio_re,tabela,conjuntura,True,True,,11,6,0
+ouro,snap_boletim_p3_producao_industrial_e_volume_de_vendas_varia,tabela,conjuntura,True,True,,13,6,0
+ouro,snap_boletim_p4_credito_imobiliario_pib,tabela,conjuntura,True,True,80,8,6,0
+ouro,snap_boletim_p4_no_uh_por_condicao_de_uso,tabela,conjuntura,True,True,,12,6,0
+ouro,snap_boletim_p5_financiamento_pf_mcmv_por_faixa,tabela,conjuntura,True,True,,11,6,0
+ouro,snap_boletim_p5_saldo_caderneta_de_poupanca_captacao_liquida,tabela,conjuntura,True,True,,8,6,0
+ouro,snap_boletim_p5_sbpe_construcao_unidades_e_valor_acum_no_tri,tabela,conjuntura,True,True,,10,6,0
+ouro,snap_boletim_p6_sinapi_brasil_e_incc_m,tabela,conjuntura,True,True,,9,6,0
+ouro,snap_boletim_p6_ticket_medio_das_unidades_lancadas_vs_incc,tabela,conjuntura,True,True,62,15,6,0
+ouro,snap_boletim_p7_indices_da_construcao_variacao,tabela,conjuntura,True,True,,11,6,0
+prata,backup_linha_financiada_contrato_20261113,tabela,(cópia de backup),False,False,537400,36,0,0
+prata,backup_rcb_prata_contrato_20261113,tabela,(cópia de backup),False,False,191022,43,0,0
+prata,prata_conjuntura_abecip_financiamentos,tabela,conjuntura,True,True,,10,10,0
+prata,prata_conjuntura_abecip_instituicoes,tabela,conjuntura,True,True,323,11,11,0
+prata,prata_conjuntura_abecip_poupanca_sbpe,tabela,conjuntura,True,True,535,6,6,0
+prata,prata_conjuntura_bacen_credito_pib,tabela,conjuntura,True,True,146,2,2,0
+prata,prata_conjuntura_bacen_financiamentos_imobiliarios,tabela,conjuntura,True,True,1256,3,3,0
+prata,prata_conjuntura_empresas_balanco_lancamentos_vendas,tabela,conjuntura,True,True,102,12,12,0
+prata,prata_conjuntura_fgts_valor_medio_imoveis,tabela,conjuntura,True,True,56,10,10,0
+prata,prata_conjuntura_fgv_icst,tabela,conjuntura,True,True,194,5,5,0
+prata,prata_conjuntura_fgv_incc_m,tabela,conjuntura,True,True,383,5,5,0
+prata,prata_conjuntura_fipezap_locacao,tabela,conjuntura,True,True,224,5,5,0
+prata,prata_conjuntura_geavo_cci_cca,tabela,conjuntura,True,True,240,11,11,0
+prata,prata_conjuntura_geavo_fgts_pf,tabela,conjuntura,True,True,454,7,7,0
+prata,prata_conjuntura_geavo_fgts_pj,tabela,conjuntura,True,True,70,5,5,0
+prata,prata_conjuntura_gefus_fundo_social,tabela,conjuntura,True,True,,8,8,0
+prata,prata_conjuntura_ibge_paic_obras,tabela,conjuntura,True,True,,13,13,0
+prata,prata_conjuntura_ibge_paic_pessoal_salarial,tabela,conjuntura,True,True,,13,13,0
+prata,prata_conjuntura_ibge_paic_resultados,tabela,conjuntura,True,True,,13,13,0
+prata,prata_conjuntura_ibge_pib_consolidado_trimestral,tabela,conjuntura,True,True,,13,13,0
+prata,prata_conjuntura_ibge_pib_construcao_civil,tabela,conjuntura,True,True,80,13,13,0
+prata,prata_conjuntura_ibge_pib_corrente,tabela,conjuntura,True,True,460,13,13,0
+prata,prata_conjuntura_ibge_pim_pf_brasil,tabela,conjuntura,True,True,120,13,13,0
+prata,prata_conjuntura_ibge_pmc_construcao,tabela,conjuntura,True,True,180,13,13,0
+prata,prata_conjuntura_ibge_pnad_construcao_ocupados,tabela,conjuntura,True,True,,13,13,0
+prata,prata_conjuntura_ibge_pnad_construcao_rendimento,tabela,conjuntura,True,True,,13,13,0
+prata,prata_conjuntura_ibge_pnadc_populacao_decis_renda,tabela,conjuntura,True,True,80,13,13,0
+prata,prata_conjuntura_ibge_pnadc_rendimento_domiciliar,tabela,conjuntura,True,True,80,13,13,0
+prata,prata_conjuntura_ibge_sinapi,tabela,conjuntura,True,True,120,13,13,0
+prata,prata_conjuntura_infomoney_imob,tabela,conjuntura,True,True,682,8,8,0
+prata,prata_conjuntura_manual_mensais,tabela,conjuntura,True,True,56,181,0,0
+prata,prata_conjuntura_manual_trimestrais,tabela,conjuntura,True,True,,137,0,0
+prata,prata_conjuntura_novo_caged,tabela,conjuntura,True,True,,8,8,0
+prata,prata_conjuntura_novo_caged_servicos_especializados,tabela,conjuntura,True,True,,8,8,0
+prata,prata_conjuntura_novo_caged_total,tabela,conjuntura,True,True,,8,8,0
+prata,prata_conjuntura_pib_construcao_civil_pct,tabela,conjuntura,True,True,,6,6,0
+prata,prata_conjuntura_sbpe_financiamentos_aquisicao,tabela,conjuntura,True,True,56,35,35,0
+prata,prata_conjuntura_siafi_dotacao_execucao,tabela,conjuntura,True,True,562,31,31,0
+prata,prata_dhist_datas_entregas_pj_caixa,tabela,(não identificado),False,False,49481,8,0,0
+prata,prata_dhist_int040_far_caixa,tabela,(não identificado),False,False,4112,52,0,0
+prata,prata_dhist_relatorio_executivo_caixa,tabela,(não identificado),False,False,934098,58,0,0
+prata,prata_dhist_snh_entregas_af_caixa,tabela,(não identificado),False,False,239341,12,0,0
+prata,prata_far_beneficiario_cadunico,tabela,far,True,True,918796,17,13,0
+prata,prata_far_cadastro_pj,tabela,far,True,True,878,43,2,0
+prata,prata_far_caixa_serie,tabela,far,True,True,120159,15,2,0
+prata,prata_far_consolidado,tabela,far,True,True,15811,58,6,0
+prata,prata_far_consolidado_serie,tabela,far,True,True,910100,14,7,0
+prata,prata_far_contrato_pf,tabela,far,True,True,,44,44,0
+prata,prata_far_dados_prioritarios_caixa,tabela,far,True,True,4533,30,1,0
+prata,prata_far_empreendimento,tabela,far,True,True,878,27,3,0
+prata,prata_far_empreendimento_natureza,tabela,far,True,True,878,54,54,0
+prata,prata_far_evolucao_financeira,tabela,far,True,True,7018,17,2,0
+prata,prata_far_financeiro_mensal,tabela,far,True,True,12469,21,1,0
+prata,prata_far_gehis_andamento_obra,tabela,far,False,False,18968,6,0,0
+prata,prata_far_obra_mensal,tabela,far,True,True,878,38,1,0
+prata,prata_far_obra_serie,tabela,far,True,True,6726,12,3,0
+prata,prata_far_serie_mensal,tabela,far,True,True,19956,32,13,0
+prata,prata_fds_cadastro_pj,tabela,fds,True,True,364,79,1,0
+prata,prata_fds_dados_prioritarios_entregas,tabela,fds,True,True,11731,7,1,0
+prata,prata_fds_dim_empreendimento,tabela,fds,True,True,1095,14,4,0
+prata,prata_fds_empreendimento,tabela,fds,True,True,364,64,2,0
+prata,prata_fds_evolucao_financeira,tabela,fds,True,True,612,19,2,0
+prata,prata_fds_familia_legado,tabela,fds,False,False,42879,32,0,0
+prata,prata_fds_financeiro_mensal,tabela,fds,True,True,16887,22,1,0
+prata,prata_fds_int_059_caixa_pj,tabela,fds,True,True,916,51,1,0
+prata,prata_fds_obra_mensal,tabela,fds,True,True,364,46,1,0
+prata,prata_fds_trabalho_social,tabela,fds,True,True,141,13,1,0
+prata,prata_financiado_cidades_emenda,tabela,(não identificado),False,False,5176,30,0,0
+prata,prata_financiado_contrapartida_por_contrato_pj,tabela,(não identificado),False,False,4844,34,0,0
+prata,prata_financiado_contrato_pf,tabela,(não identificado),False,False,357164,26,0,0
+prata,prata_financiado_contrato_pj,tabela,(não identificado),False,False,156200,32,0,0
+prata,prata_financiado_desembolso_mensal,tabela,(não identificado),False,False,1615532,8,0,0
+prata,prata_financiado_empreendimento,tabela,(não identificado),False,False,74600,16,0,0
+prata,prata_financiado_empreendimento_posicao,tabela,(não identificado),False,False,74497,9,0,0
+prata,prata_financiado_obra_mensal,tabela,(não identificado),False,False,567606,15,0,0
+prata,prata_financiado_obra_posicao,tabela,(não identificado),False,False,57606,30,0,0
+prata,prata_financiado_paralisacao,tabela,(não identificado),False,False,124,18,0,0
+prata,prata_fnhis_ficha_termo_compromisso,tabela,(não identificado),False,False,1207,47,0,0
+prata,prata_fnhis_portarias,tabela,(não identificado),False,False,,13,0,0
+prata,prata_fnhis_prioritarios_snh,tabela,(não identificado),False,False,1224,30,0,0
+prata,prata_fnhis_proposta_tramite,tabela,(não identificado),False,False,7121,31,0,0
+prata,prata_fnhis_propostas,tabela,(não identificado),False,False,7121,14,0,0
+prata,prata_fnhis_regularidade_entes,tabela,(não identificado),False,False,5596,23,0,0
+prata,prata_fnhis_regularidade_serie,tabela,(não identificado),False,False,22384,23,0,0
+prata,prata_fnhis_snh_mcmv_outras_modalidades,tabela,(não identificado),False,False,20234,7,0,0
+prata,prata_fnhis_termo_compromisso,tabela,(não identificado),False,False,1207,24,0,0
+prata,prata_fnhis_termo_compromisso_mensal,tabela,(não identificado),False,False,16898,12,0,0
+prata,prata_hist_classe_media_contrato,tabela,(não identificado),False,False,3407766,49,0,0
+prata,prata_hist_entrega_apf,tabela,(não identificado),False,False,11741,7,0,0
+prata,prata_hist_far_empreendimento,tabela,(não identificado),False,False,331113,93,0,0
+prata,prata_hist_fds_empreendimento,tabela,(não identificado),False,False,46069,93,0,0
+prata,prata_hist_fnhis_proposta,tabela,(não identificado),False,False,8328,24,0,0
+prata,prata_hist_mcmv_cidades_contrato,tabela,(não identificado),False,False,4935,14,0,0
+prata,prata_hist_pro_moradia_contrato,tabela,(não identificado),False,False,686,21,0,0
+prata,prata_hist_pro_moradia_desembolso_mensal,tabela,(não identificado),False,False,5341,9,0,0
+prata,prata_hist_pro_moradia_paralisacao,tabela,(não identificado),False,False,596,11,0,0
+prata,prata_hist_reforma_casa_brasil_contrato,tabela,(não identificado),False,False,2714051,52,0,0
+prata,prata_hist_rural_empreendimento,tabela,(não identificado),False,False,702287,93,0,0
+prata,prata_hist_serie_executiva,tabela,(não identificado),False,False,10104030,40,0,0
+prata,prata_hist_snh_apf_mes,tabela,(não identificado),False,False,307731,19,0,0
+prata,prata_hist_snh_entregas_mes,tabela,(não identificado),False,False,13365,6,0,0
+prata,prata_historico_snh_entregas_mes,tabela,indicadores_mcmv,True,True,13365,6,5,0
+prata,prata_linha_financiada_contrapartida,tabela,linha_financiada,True,True,537400,10,0,0
+prata,prata_linha_financiada_contrato,tabela,linha_financiada,True,True,537400,36,0,0
+prata,prata_linha_financiada_empreendimento,tabela,linha_financiada,True,True,93104,25,0,0
+prata,prata_linha_financiada_execucao_orcamentaria,tabela,linha_financiada,True,True,375,17,0,0
+prata,prata_linha_financiada_pf_fgts,tabela,linha_financiada,True,True,10814333,6,0,0
+prata,prata_mcid_cobertura_perguntas,tabela,(não identificado),False,False,,9,0,0
+prata,prata_pro_moradia_contrato,tabela,(não identificado),False,False,686,45,0,0
+prata,prata_pro_moradia_desembolso_mensal,tabela,(não identificado),False,False,5235,7,0,0
+prata,prata_pro_moradia_execucao_obra,tabela,(não identificado),False,False,12796,10,0,0
+prata,prata_pro_moradia_ficha_contrato,tabela,(não identificado),False,False,686,59,0,0
+prata,prata_pro_moradia_orcamento,tabela,(não identificado),False,False,,6,0,0
+prata,prata_pro_moradia_paralisacao,tabela,(não identificado),False,False,,10,0,0
+prata,prata_pro_moradia_portarias,tabela,(não identificado),False,False,,13,0,0
+prata,prata_pro_moradia_tomador_recontratacao,tabela,(não identificado),False,False,686,21,0,0
+prata,prata_reforma_casa_brasil_contrato,tabela,reforma_casa_brasil,True,True,191022,43,3,0
+prata,prata_reforma_casa_brasil_contrato_historico,tabela,reforma_casa_brasil,False,False,2288928,28,0,0
+prata,prata_relog_classe_media_reforma_resumo_faixa_renda_mes,tabela,(não identificado),False,False,,5,0,0
+prata,prata_relog_frentes_novas_resumo_mes,tabela,(não identificado),False,False,145,4,0,0
+prata,prata_relog_frentes_novas_resumo_mes_uf,tabela,(não identificado),False,False,958,5,0,0
+prata,prata_rural_autorizacao_proposta,tabela,rural,False,False,667,18,0,0
+prata,prata_rural_cadastro_pf,tabela,rural,True,True,3093,37,7,0
+prata,prata_rural_cadastro_pj,tabela,rural,True,True,127,36,8,0
+prata,prata_rural_empreendimento,tabela,rural,True,True,10402,36,19,0
+prata,prata_rural_entidade_recontratacao,tabela,rural,False,False,10346,20,0,0
+prata,prata_rural_evolucao_financeira,tabela,rural,False,False,63090,14,0,0
+prata,prata_rural_ficha_empreendimento,tabela,rural,False,False,10402,44,0,0
+prata,prata_rural_financeiro_mensal,tabela,rural,True,True,7729,18,3,0
+prata,prata_rural_gehis_andamento_obra,tabela,rural,False,False,42347,7,0,0
+prata,prata_rural_obra_mensal,tabela,rural,True,True,1517,38,4,0
+prata,prata_rural_obra_mensal_serie,tabela,rural,False,False,12107,22,0,0
+prata,prata_rural_operacao_eo,tabela,rural,False,False,10402,22,0,0
+prata,prata_rural_pnhr_bb,tabela,rural,True,True,1087,36,2,0
+prata,prata_rural_pnhr_caixa,tabela,rural,True,True,8508,38,6,0
+prata,prata_rural_pnhr_familia,tabela,rural,False,False,216266,42,0,0
+prata,prata_rural_pnhr_liberacoes,tabela,rural,True,True,63869,6,3,0
+prata,prata_rural_portarias_selecao,tabela,rural,False,False,54,12,0,0
+prata,prata_rural_prioritarios_bb,tabela,rural,True,True,1088,30,5,0
+prata,prata_rural_prioritarios_caixa,tabela,rural,True,True,9637,30,2,0
+prata,prata_rural_prioritarios_snh,tabela,rural,True,True,10402,42,10,0
+prata,prata_rural_proposta_funil,tabela,rural,False,False,4676,48,0,0
+prata,prata_rural_selecao_contrato,tabela,rural,False,False,4676,36,0,0
+prata,prata_rural_selecao_portaria_162,tabela,rural,False,False,1286,10,0,0
+prata,prata_rural_selecao_portarias,tabela,rural,False,False,4676,22,0,0
+prata,prata_rural_trabalho_social_bb,tabela,rural,True,True,1088,25,6,0
+prata,prata_rural_trabalho_social_caixa,tabela,rural,True,True,10005,27,6,0
+prata,prata_rural_uf_ibge,tabela,rural,False,False,,4,0,0
+prata,prata_rural_vinculo_operacao,tabela,rural,False,False,10402,55,0,0
+prata,prata_ts_acompanhamento,tabela,(não identificado),False,False,16497,38,0,0
+prata,prata_ts_demanda_dossie,tabela,(não identificado),False,False,1289,26,0,0
+prata,prata_ts_empreendimento_perfil,tabela,(não identificado),False,False,16497,22,0,0
+prata,prata_ts_marco_portaria,tabela,(não identificado),False,False,,12,0,0
+prata,prata_ts_portaria_contrato,tabela,(não identificado),False,False,16497,32,0,0
+prata,prata_ts_portaria_remessa,tabela,(não identificado),False,False,209778,12,0,0
+prata,prata_ts_selecao_contrato,tabela,(não identificado),False,False,2795,10,0,0
+seeds,api_ibge_uf,tabela,seeds,True,True,,6,6,0
+seeds,boletim_gabarito,tabela,seeds,True,True,170,7,7,0
+seeds,campos_obrigatorios,tabela,seeds,True,True,,5,3,0
+seeds,cobertura_perguntas_far,tabela,seeds,True,True,,10,3,0
+seeds,cobertura_perguntas_mcid,tabela,(não identificado),False,False,,9,0,0
+seeds,colunas_bronze_ignoradas,tabela,seeds,True,True,79,3,1,0
+seeds,colunas_esperadas,tabela,(não identificado),False,False,849,2,0,0
+seeds,dominio_far_perguntas,tabela,seeds,True,True,99,3,3,0
+seeds,dominio_motivo_paralisacao,tabela,seeds,True,True,,3,0,0
+seeds,dominio_regiao_uf,tabela,(não identificado),False,False,,3,0,0
+seeds,dominio_retomada,tabela,seeds,True,True,,3,0,0
+seeds,dominio_rural_obra,tabela,(não identificado),False,False,,4,0,0
+seeds,dominio_status,tabela,(não identificado),False,False,,3,0,0
+seeds,dominio_status_extra,tabela,(não identificado),False,False,,3,0,0
+seeds,faixa_valor_uh,tabela,(não identificado),False,False,54,5,0,0
+seeds,far_portaria_apf,tabela,seeds,True,True,828,3,3,0
+seeds,far_portaria_selecao_apf,tabela,(não identificado),False,False,828,3,0,0
+seeds,far_situacao_obra,tabela,seeds,True,True,,2,2,0
+seeds,fds_portaria_selecao_698_2026,tabela,(não identificado),False,False,393,6,0,0
+seeds,ibge_municipio,tabela,seeds,True,True,5571,3,3,0
+seeds,ibge_municipio_centroide,tabela,(não identificado),False,False,5571,5,0,0
+seeds,issue_118_mcmv_serie_temporal_piloto,tabela,(não identificado),False,False,,5,0,0
+seeds,orcamento_fgts_habitacao,tabela,(não identificado),False,False,388,8,0,0
+seeds,orcamento_fundo_social_mcmv,tabela,(não identificado),False,False,,5,0,0
+seeds,portaria_354_25,tabela,(não identificado),False,False,2110,13,0,0
+seeds,portariamcid,tabela,(não identificado),False,False,1217,13,0,0
+seeds,portarias_fnhis_sub50,tabela,(não identificado),False,False,,11,0,0
+seeds,portarias_pro_moradia,tabela,(não identificado),False,False,,11,0,0
+seeds,portarias_selecao_rural,tabela,(não identificado),False,False,54,10,0,0
+seeds,quarentena_valores_financeiros,tabela,(não identificado),False,False,3820,4,0,0
+seeds,rural_portaria_autorizacao_1133_2024,tabela,(não identificado),False,False,263,16,0,0
+seeds,rural_portaria_autorizacao_1346_2024,tabela,(não identificado),False,False,61,16,0,0
+seeds,rural_portaria_autorizacao_1362_2026,tabela,(não identificado),False,False,,16,0,0
+seeds,rural_portaria_autorizacao_1386_2024,tabela,(não identificado),False,False,103,16,0,0
+seeds,rural_portaria_autorizacao_1449_2026,tabela,(não identificado),False,False,,16,0,0
+seeds,rural_portaria_autorizacao_278_2025,tabela,(não identificado),False,False,,16,0,0
+seeds,rural_portaria_autorizacao_562_2025,tabela,(não identificado),False,False,203,16,0,0
+seeds,rural_portaria_autorizacao_conferencia,tabela,(não identificado),False,False,,12,0,0
+seeds,rural_portaria_enquadramento_1207_2025,tabela,(não identificado),False,False,66,13,0,0
+seeds,rural_portaria_enquadramento_173_2024,tabela,(não identificado),False,False,55,15,0,0
+seeds,rural_portaria_selecao_354_2024,tabela,(não identificado),False,False,2110,13,0,0
+seeds,rural_portaria_selecao_697_2026,tabela,(não identificado),False,False,1217,13,0,0
+seeds,seed_apf_fase_fds,tabela,(não identificado),False,False,1093,5,0,0
+seeds,seed_correcao_fase_projeto,tabela,(não identificado),False,False,176,6,0,0
+seeds,selecao_portarias_rural,tabela,(não identificado),False,False,,11,0,0
+seeds,ts_dominio_situacao,tabela,(não identificado),False,False,16,7,0,0
+seeds,ts_dominio_tipo_demanda,tabela,(não identificado),False,False,,3,0,0
+seeds,ts_dominio_uf,tabela,(não identificado),False,False,27,3,0,0
+seeds,ts_marcos_portaria_464_2018,tabela,(não identificado),False,False,,11,0,0
+seeds,ts_marcos_portaria_738_2024,tabela,(não identificado),False,False,,12,0,0
+seeds,ts_marcos_portaria_75_2025,tabela,(não identificado),False,False,,11,0,0
+seeds,ts_portarias,tabela,(não identificado),False,False,,14,0,0
+seeds,ts_publico_tradicional,tabela,(não identificado),False,False,,5,0,0

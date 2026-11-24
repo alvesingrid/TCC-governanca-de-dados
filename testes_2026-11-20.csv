@@ -1,0 +1,5 @@
+dimensao,regra,tabela,coluna,resultado,linhas_testadas,linhas_que_violam,pct_violam
+Completude,O valor do PIB não pode estar vazio,prata.prata_conjuntura_ibge_pib_corrente,valor,Aprovado,460,0,0.0
+Unicidade,Cada mês (ano + mês) aparece uma vez só,prata.prata_conjuntura_novo_caged_total,"ano, mes",Aprovado,30,0,0.0
+Validade,O mês está entre 1 e 12,prata.prata_conjuntura_abecip_financiamentos,mes,Aprovado,297,0,0.0
+Consistência,Saldo de empregos = admitidos - desligados,prata.prata_conjuntura_novo_caged_total,"saldo, admitidos, desligados",Aprovado,30,0,0.0
