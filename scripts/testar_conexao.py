@@ -4,8 +4,7 @@ Lista os schemas do banco e quantas tabelas há em cada um.
 Não lê nenhum dado das tabelas, só nomes e contagens.
 
 Como rodar (a partir da pasta do repositório):
-    cd ~/TCC/data-application-cidades
-    uv run python ~/TCC/piloto/testar_conexao.py
+    uv run --project ~/TCC/data-application-cidades python scripts/testar_conexao.py
 """
 
 import os

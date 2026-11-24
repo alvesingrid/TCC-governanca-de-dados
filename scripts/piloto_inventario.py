@@ -7,11 +7,10 @@ O que faz (somente leitura, não lê nenhuma linha de dado):
        - no dbt (arquivos .yml de models/, seeds/ e snapshots/), que é a
          documentação do projeto;
        - no próprio Postgres (comentário da coluna).
-  4. Salva tudo em ~/TCC/piloto/resultados/ com a data de hoje no nome.
+  4. Salva tudo em resultados/<data de hoje>/ neste repositório.
 
 Como rodar (com a VPN ligada):
-    cd ~/TCC/data-application-cidades
-    uv run python ~/TCC/piloto/piloto_inventario.py
+    uv run --project ~/TCC/data-application-cidades python scripts/piloto_inventario.py
 """
 
 import csv
@@ -22,12 +21,10 @@ from collections import defaultdict
 from pathlib import Path
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from conexao import conectar  # noqa: E402
+from conexao import CIDADES_REPO, conectar, pasta_resultados  # noqa: E402
 from dbt_docs import ler_documentacao_dbt  # noqa: E402
 
-REPO = Path("~/TCC/data-application-cidades").expanduser()
-DBT = REPO / "dbt" / "mcid"
-SAIDA = Path("~/TCC/piloto/resultados").expanduser()
+DBT = CIDADES_REPO / "dbt" / "mcid"
 SCHEMAS = ["bronze", "prata", "ouro", "seeds"]
 
 # Quando a tabela não está no dbt, o produto é deduzido pelo começo do nome.
@@ -150,7 +147,7 @@ def main():
     conn.close()
 
     tabelas, colunas = montar_inventario(linhas_banco, docs)
-    SAIDA.mkdir(parents=True, exist_ok=True)
+    SAIDA = pasta_resultados()
     salvar_csv(SAIDA / f"inventario_tabelas_{data}.csv", tabelas)
     salvar_csv(SAIDA / f"inventario_colunas_{data}.csv", colunas)
     resumo = formatar_resumo(tabelas, data)

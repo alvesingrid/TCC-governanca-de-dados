@@ -1,0 +1,9 @@
+# Credenciais: nunca vão para o repositório
+.env
+*.ovpn
+*.p12
+
+# Python
+__pycache__/
+*.pyc
+.venv/

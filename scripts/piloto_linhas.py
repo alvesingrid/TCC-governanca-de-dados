@@ -4,21 +4,18 @@ Somente leitura. Faz só COUNT(*), não lê nenhum valor dos dados.
 Pode levar alguns minutos, porque algumas tabelas são grandes.
 
 Como rodar (com a VPN ligada):
-    cd ~/TCC/data-application-cidades
-    uv run python ~/TCC/piloto/piloto_linhas.py
+    uv run --project ~/TCC/data-application-cidades python scripts/piloto_linhas.py
 """
 
 import csv
 import datetime as dt
 import os
 import sys
-from pathlib import Path
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from conexao import conectar  # noqa: E402
+from conexao import conectar, pasta_resultados  # noqa: E402
 
 SCHEMAS = {"bronze": "Bronze", "prata": "Prata", "ouro": "Ouro", "seeds": "Apoio"}
-SAIDA = Path("~/TCC/piloto/resultados").expanduser()
 
 LISTA = """
 SELECT n.nspname, c.relname
@@ -48,7 +45,7 @@ def main():
     conn.close()
     print()
 
-    SAIDA.mkdir(parents=True, exist_ok=True)
+    SAIDA = pasta_resultados(data)
     with open(SAIDA / f"linhas_{data.isoformat()}.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=["schema", "tabela", "linhas", "erro"])
         w.writeheader()

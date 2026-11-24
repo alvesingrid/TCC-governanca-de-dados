@@ -6,20 +6,17 @@ Para cada tabela do recorte, nas camadas bronze e prata:
 Somente leitura. Não mostra nenhum valor dos dados, só contagens e nomes.
 
 Como rodar (com a VPN ligada):
-    cd ~/TCC/data-application-cidades
-    uv run python ~/TCC/piloto/piloto_recorte.py
+    uv run --project ~/TCC/data-application-cidades python scripts/piloto_recorte.py
 """
 
 import csv
 import datetime as dt
 import os
 import sys
-from pathlib import Path
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from conexao import conectar  # noqa: E402
+from conexao import conectar, pasta_resultados  # noqa: E402
 
-SAIDA = Path("~/TCC/piloto/resultados").expanduser()
 
 # Fontes públicas da Conjuntura. Ficam de fora: GEAVO/GEFUS (Caixa), SIAFI,
 # CBIC, balanços de empresas e tudo que é digitado à mão (manual).
@@ -67,7 +64,7 @@ def main():
                     colunas.append({"schema": schema, "tabela": tabela, "coluna": coluna, "tipo": tipo})
     conn.close()
 
-    SAIDA.mkdir(parents=True, exist_ok=True)
+    SAIDA = pasta_resultados()
     for nome, registros in [("recorte_tabelas", tabelas), ("recorte_colunas", colunas)]:
         with open(SAIDA / f"{nome}_{data}.csv", "w", newline="", encoding="utf-8") as f:
             w = csv.DictWriter(f, fieldnames=list(registros[0].keys()))

@@ -5,8 +5,7 @@ de hoje, e calcula o período coberto por cada tabela (primeira e última data).
 Os dados são de fontes públicas, então a cópia pode ir para o repositório.
 
 Como rodar (com a VPN ligada):
-    cd ~/TCC/data-application-cidades
-    uv run python ~/TCC/piloto/piloto_copia.py
+    uv run --project ~/TCC/data-application-cidades python scripts/piloto_copia.py
 """
 
 import csv
@@ -16,7 +15,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from conexao import conectar  # noqa: E402
+from conexao import RAIZ, conectar  # noqa: E402
 from piloto_recorte import COLUNAS_SQL, PREFIXOS  # noqa: E402
 
 TIPOS_DATA = ("date", "timestamp without time zone", "timestamp with time zone")
@@ -36,7 +35,7 @@ def coluna_de_data(colunas):
 
 def main():
     data = dt.date.today().isoformat()
-    pasta = Path(f"~/TCC/piloto/copia_{data}").expanduser()
+    pasta = RAIZ / "copia_conjuntura" / data
     pasta.mkdir(parents=True, exist_ok=True)
     conn = conectar()
     periodos = []

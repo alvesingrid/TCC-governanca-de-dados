@@ -1,8 +1,7 @@
 """Confere as variáveis do banco MCID no .env SEM mostrar a senha.
 
 Como rodar:
-    cd ~/TCC/data-application-cidades
-    uv run python ~/TCC/piloto/conferir_env.py
+    uv run --project ~/TCC/data-application-cidades python scripts/conferir_env.py
 """
 
 import os
@@ -10,7 +9,7 @@ from pathlib import Path
 
 from dotenv import dotenv_values
 
-ENV = Path("~/TCC/data-application-cidades/.env").expanduser()
+ENV = Path(os.environ.get("CIDADES_REPO", "~/TCC/data-application-cidades")).expanduser() / ".env"
 CAMPOS = [
     "DB_DW_HOST_MCID",
     "DB_DW_PORT_MCID",
